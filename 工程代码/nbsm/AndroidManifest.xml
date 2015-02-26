@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anjoyo.LibrarySystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/xfsc4pz3"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.baige.nbsm.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.baige.nbsm.ResigeActivity" >
+        </activity>
+        <activity android:name="com.baige.nbsm.activty.ManagerActivity" >
+        </activity>
+        <activity android:name="com.baige.nbsm.activty.userManager" >
+        </activity>
+        <activity android:name="com.baige.nbsm.activty.goodsManager" >
+        </activity>
+        <activity android:name="com.baige.nbsm.activty.allorderRecord" >
+        </activity>
+        <activity android:name="com.baige.nbsm.activty.editPassword" >
+        </activity>
+        <activity android:name="com.baige.nbsm.activty.goodsDetails" >
+        </activity>
+        <activity android:name="com.baige.nbsm.user.UserActivity" >
+        </activity>
+        <activity android:name="com.baige.nbsm.user.goodsView" >
+        </activity>
+        <activity android:name="com.baige.nbsm.user.orderRecord" >
+        </activity>
+        <activity android:name="com.baige.nbsm.user.goodsSearch" >
+        </activity>
+        <activity android:name="com.baige.nbsm.user.user_booking" >
+        </activity>
+    </application>
+
+</manifest>
